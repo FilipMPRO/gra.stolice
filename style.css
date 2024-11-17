@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+  }
+  body{
+    background-color: gray;
+  }
+  
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+  img {
+    width: 250px;
+    height: 150px;
+    margin: 20px 0;
+  }
+  
+  #score {
+    margin-top: 20px;
+    background-color: blueviolet;
+    padding-top: 50px;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: green;
+  }
+  #game{
+    background-color: blueviolet;
+    border-radius: 50px;
+    width: 500px;
+    height: 350px;
+  }
